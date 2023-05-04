@@ -6,7 +6,7 @@ import { onFetchError } from './js/error';
 import { markupCountryCard, markupCountryList } from './js/markup';
 
 const DEBOUNCE_DELAY = 300;
-let nameCountry = '';
+let countryName = '';
 
 const inputSearch = document.querySelector('input#search-box');
 const countryList = document.querySelector('.country-list');
